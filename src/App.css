@@ -1,0 +1,263 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.light{
+  color: black;
+}
+
+.dark{
+  color: white;
+  background-color: black;
+}
+
+
+.box-shadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.background-pattern{
+  width: 100%;
+  height: 100%;
+  --color: #E1E1E1;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+.nav-area{
+  display: flex;
+  justify-content: center;
+}
+
+.list-style{
+  margin-left: 30px;
+}
+
+
+.navbar{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+}
+
+.content .left{
+  flex: 0.5;
+}
+
+.content .right{
+  flex: 1;
+}
+
+.icon-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.talk-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.navbar button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.profile-card{
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.profile-img{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media-links{
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.social-media-links .borders{
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.summary-card{
+  word-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-card{
+  padding: 20px;
+  margin: 20px;
+}
+
+.expert-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.expert-icons{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.workexprience{
+  height: 100vh;
+}
+
+.contact-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.form-area{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.form{
+  height: 40px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size:15px;
+}
+
+.textarea{
+  width: 80%;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size:15px;
+}
+
+.contact-button{
+  padding: 10px;
+  width: 20%;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.project-button{
+  padding: 10px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tagarea{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tag{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.projectbuttons{
+  display: flex;
+  gap: 10px;
+}
